@@ -6,7 +6,7 @@
 # Takes user input and returns their art choice and border choice
 def Intro():
     artInput = input(
-        "Welcome! Input [1-4] to choose your ASCII art to display. 1 is a Sailing Ship, 2 is a Sleeping Cat, 3 is an Aardvark, 4 is Iysaur\t"
+        "Welcome! Input [1-4] to choose your ASCII art to display. 1 is a Sleeping Cat, 2 is a Sailing Ship, 3 is an Aardvark, 4 is Iysaur:\t"
     )
     borderInput = input(
         "Input the single character you would like as the border for your art:\t"
@@ -129,11 +129,11 @@ def Blank(borderInput):
 
 
 def main():
-
     # take user input
     art, border = Intro()
 
-    print(f"Art = {art}")
+    # must be int for value comparison
+    art = int(art)
 
     # display user specified art
     if art == 1:
