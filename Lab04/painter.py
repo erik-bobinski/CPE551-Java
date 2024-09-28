@@ -1,6 +1,7 @@
 # Author: Erik Bobinski
 # Date: 9/24/2024
-# Description: A small description in your own words that describes what the program does.
+# Description: Prints user's choice of ASCII art, 
+# paints a border around it of user's choice
 
 
 # Takes user input and returns their art choice and border choice
