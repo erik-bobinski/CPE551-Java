@@ -16,4 +16,3 @@ for num in range(lowerBound, upperBound + 1):
         oddSum += num
 
 print(f"The final odd sum is {oddSum}")
-
