@@ -1,6 +1,7 @@
 import os
 
 def main():
+
     # input validation
     while True: 
         file = input("Enter the name of the file you want to read: ")
