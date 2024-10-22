@@ -58,18 +58,5 @@ def main():
             case _:
                 print("Invalid option, choose between [1-7]")
 
-    #bookDict, categoriesSet = bmf.LoadBooks() 
-
-    #reviewList = bmf.LoadReviews(bookDict) 
-
-    #bmf.BooksFromCategory(bookDict, categoriesSet)
-
-    #bmf.BookData(bookDict, reviewList)
-
-    #bmf.AuthorRatings(bookDict, reviewList)
-
-    #bmf.HelpfulReviewer(reviewList)
-
-
 if __name__ == "__main__":
     main()
