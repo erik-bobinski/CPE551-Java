@@ -192,8 +192,18 @@ def BookData(books: Dict[str, list[str]], bookReviews: list[str]) -> None:
 
 
 
-def AuthorRatings(books: Dict[str, list[str]], bookReviews: list[str]) -> None:
-    
+def AuthorRatings(books: Dict[str, list[str]], bookReviews: list[str]) -> None: 
+    """
+    Outputs the average rating for each author from bookReviews file
+
+    :param books: collection of all books
+    :param type: Dict[str, list[str]]
+
+    :param bookReviews: list of all book reviews
+    :param type: list[str]
+
+    :return: None
+    """
     # build dict of {authors:their book titles} using books dict
     authorBooks = {}
 
@@ -242,6 +252,14 @@ def AuthorRatings(books: Dict[str, list[str]], bookReviews: list[str]) -> None:
 
 
 def HelpfulReviewer(bookReviews: list[str]) -> None:
+    """
+    Outputs the name and average helpfulness rating of the most helpful reviewer
+
+    :param bookReviews: list of all book reviews
+    :param type: list[str]
+
+    :return: None
+    """
     
     # create dict {reviewer:helpfulness[numerator, denominator]}
     # numerator = amount of ratings that stated a reviewer was helpful
@@ -319,5 +337,4 @@ def Menu() -> int:
         except:
             print("\nEnter an integer [1-7]")
 
-    return num
-     
+    return num 
