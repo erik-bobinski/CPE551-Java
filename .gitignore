@@ -3,3 +3,5 @@ bk.pdf
 Python Project Proposals.docx
 
 .DS_Store
+
+__pycache__/
